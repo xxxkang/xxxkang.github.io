@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Binary Search Trees"
-date:   2019-04-28 20:22:50 -0500
-categories: jekyll post
+title:  "9-1 Largest i Numbers in Sorted Order"
+date:   2019-04-29 16:53:50 -0500
+categories: clrs problems
 author: "xxxkang"
+permalink: "clrs/problems/9-1.html"
 ---
 
-Some study notes on binary search trees.
+Given a set of `n` numbers, we wish to find the `i` largest in sorted order using a comparison-based algorithm. Find the algorithm that implements each of the following methods with the best asymptotic worst-case running time, and analyze the running times of the algorithms in terms of `n` and `i`.
+
+
 
 
 
