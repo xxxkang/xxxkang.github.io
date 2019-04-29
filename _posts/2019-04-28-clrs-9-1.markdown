@@ -9,6 +9,15 @@ permalink: "clrs/problems/9-1.html"
 
 Given a set of `n` numbers, we wish to find the `i` largest in sorted order using a comparison-based algorithm. Find the algorithm that implements each of the following methods with the best asymptotic worst-case running time, and analyze the running times of the algorithms in terms of `n` and `i`.
 
+a. Sort the numbers and list the `i` largest.
+
+	def class Solution():
+
+		def iLargest(A: List[int], i: int) -> List[int]:
+			return sorted(A, reversed=True)[:i]
+
+b. Build a max-priority queue from the numbers and call `EXTRACT-MAX i` times.
+
 
 
 
