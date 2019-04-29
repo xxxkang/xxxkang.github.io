@@ -15,7 +15,7 @@ a. Sort the numbers and list the `i` largest.
 def class Solution():
 
 	def iLargest(A: List[int], i: int) -> List[int]:
-		return sorted(A, reversed=True)[:i]
+		return sorted(A, reverse=True)[:i]
 {% endhighlight %}
 
 b. Build a max-priority queue from the numbers and call `EXTRACT-MAX i` times.
