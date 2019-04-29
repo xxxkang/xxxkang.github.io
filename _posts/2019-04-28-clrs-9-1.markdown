@@ -18,7 +18,7 @@ def class Solution():
 		return sorted(A, reverse=True)[:i]
 {% endhighlight %}
 
-b. Build a max-priority queue from the numbers and call `EXTRACT-MAX i` times.
+b. Build a max-priority queue from the numbers and call `EXTRACT-MAX` `i` times.
 
 
 

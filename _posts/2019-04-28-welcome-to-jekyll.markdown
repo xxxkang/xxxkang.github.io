@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I Just Changed the Title!"
+title:  "Welcome to Jekyll!"
 date:   2019-04-28 20:01:50 -0500
 categories: jekyll post
 author: "xxxkang"
