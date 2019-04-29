@@ -11,10 +11,12 @@ Given a set of `n` numbers, we wish to find the `i` largest in sorted order usin
 
 a. Sort the numbers and list the `i` largest.
 
-	def class Solution():
+{% highlight python %}
+def class Solution():
 
-		def iLargest(A: List[int], i: int) -> List[int]:
-			return sorted(A, reversed=True)[:i]
+	def iLargest(A: List[int], i: int) -> List[int]:
+		return sorted(A, reversed=True)[:i]
+{% highlight python %}
 
 b. Build a max-priority queue from the numbers and call `EXTRACT-MAX i` times.
 
